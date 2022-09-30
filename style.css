@@ -40,9 +40,6 @@ a:hover, a:active {
   text-decoration: none;
 }
 
-.body {
-  display: flex;
-}
 
 ul {
   list-style-type: none;
@@ -52,10 +49,36 @@ ul {
   display: flex;
 }
 
+.section1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #1f2937;
+  color: white;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+  font-weight: 800;
+}
+
+.sub-text {
+  font-size: small;
+}
+
 .footer {
   height: 72px;
-  background: #eee;
-  color: darkmagenta;
+  background-color: #1f2937;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
